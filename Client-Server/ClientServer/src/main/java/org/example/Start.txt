@@ -1,0 +1,21 @@
+CMD:
+1. 
+cd C:\Users\andri\Desktop\ClientServer
+2.
+javac -d target src\main\java\org\example\User.java src\main\java\org\example\UserServer.java src\main\java\org\example\UserServerThread.java src\main\java\org\example\UserClient.java
+3.
+java -cp target org.example.UserServer
+4.
+java -cp target org.example.UserClient
+
+Commands:
+Examples: ADD 1 Alice, ADD 2 Bob, LIST, REMOVE 1, LIST
+
+Bash:
+1.
+javac -d build src/*.java
+2.
+java -cp build UserServer
+3.
+java -cp build UserClient
+
